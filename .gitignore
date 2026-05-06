@@ -1,0 +1,26 @@
+#这个文件里面记录的是不上传github的文件和目录
+# 不上传的目录
+.git/
+.idea/
+.ipynb_checkpoints/
+assets/
+data/
+limo/
+modify/
+run_real/
+run_rxr/
+__pycache__/
+
+# 不上传的文件
+=1.25.0
+debug_run_mp.py
+download_mp.py
+README.md
+run_rxr_single_episode.py
+run_single_episode.py
+rxr_test.py
+working_environment.sh
+working_environment.sh.bak
+working_environment_cleaned.sh
+*.pyc
+*.pyo
