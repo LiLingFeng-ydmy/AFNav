@@ -4,8 +4,8 @@
 
 1. Set up a virtual environment. This project is developed using Python 3.8:
    ```bash
-   conda create -n PFNav python==3.8
-   conda activate PFNav
+   conda create -n AFNav python==3.8
+   conda activate AFNav
    ```
 
 2. For machines with multiple GPUs or without a connected display (e.g. a compute cluster), install `habitat-sim-v0.1.7`:
@@ -44,8 +44,8 @@
 
 5. Install the remaining dependencies:
    ```bash
-   git clone https://github.com/LiLingFeng-ydmy/PFNav.git
-   cd PFNav-code
+   git clone https://github.com/LiLingFeng-ydmy/AFNav.git
+   cd AFNav-code
    pip install requirements.txt
    pip install requirements2.txt
    ```
@@ -63,12 +63,12 @@
    ```
    After extraction, ensure the directory follows the structure `scene_datasets/mp3d/{scene}/{scene}.glb`. There should be 90 scenes in total. Place the `scene_datasets` folder inside `data/`.
 
-2. **PFNav LLM Replies / BLIP2-ITM / BLIP2-VQA / Grounded-SAM:** Download all required files from [Google Drive](https://drive.google.com/drive/folders/1fHUDDnK-gNNABrcb5u_F93mAQhu8tC8z?usp=sharing).
+2. **AFNav LLM Replies / BLIP2-ITM / BLIP2-VQA / Grounded-SAM:** Download all required files from [Google Drive](https://drive.google.com/drive/folders/1fHUDDnK-gNNABrcb5u_F93mAQhu8tC8z?usp=sharing).
 
 The overall data directory should be organized as follows:
 
 ```
-PFNav-code
+AFNav-code
 ├── data
 │   ├── blip2
 │   ├── datasets
@@ -86,6 +86,6 @@ PFNav-code
 ## Running
 
 ```bash
-cd PFNav-code
+cd AFNav-code
 sh run_r2r/main.sh
 ```
